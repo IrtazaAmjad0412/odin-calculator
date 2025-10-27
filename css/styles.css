@@ -29,6 +29,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   padding: 15px;
+  height: 70px;
   text-align: right;
   font-size: 2rem;
 }
@@ -52,7 +53,8 @@ body {
 
 .number,
 .operator,
-.clear {
+.clear,
+.equal {
   background: linear-gradient(135deg, #7cfc00, #32cd32);
   color: #fff;
   border-radius: 10px;
@@ -76,21 +78,14 @@ body {
   flex: 0 0 120px;
 }
 
-.clear,
-.operator .equal {
-  flex: 0 0 auto;
-  width: 100%;
-  padding: 15px 0;
-  text-align: center;
-}
-
 .operator-row {
   display: flex;
   gap: 10px;
 }
 
 .operator,
-.clear {
+.clear,
+.equal {
   background: rgba(255, 255, 255, 0.25);
   color: #ffeb3b;
 }
